@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "yarn": "^1.22.22"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
