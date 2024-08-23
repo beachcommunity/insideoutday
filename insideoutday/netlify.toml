@@ -1,4 +1,5 @@
 [build]
   command = "npm install"
   command = "npm run build"
+  command = "parcel build index.html"
   publish = "dist"
