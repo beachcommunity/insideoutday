@@ -1,4 +1,0 @@
-[build]
-  base = "dist"
-  command = "yarn parcel index.html"
-  publish = "dist"
