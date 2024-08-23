@@ -1,11 +1,12 @@
 {
   "name": "insideoutday",
   "source": "index.html",
+  "default": "index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "dev": "parcel index.html",
-    "build": "parcel build index.html --no-minify",
-    "deploy": "gh-pages -d dist"
+    "start": "parcel serve index.html",
+    "build": "parcel build index.html"
   },
   "devDependencies": {
     "gh-pages": "^6.1.1",
