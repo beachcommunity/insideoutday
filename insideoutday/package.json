@@ -17,8 +17,7 @@
   "dependencies": {
     "dayjs": "^1.11.13",
     "netlify-cli": "^17.34.2",
-    "parcel": "^2.12.0",
-    "parcel-bundler": "^1.12.5"
+    "parcel": "^2.12.0"
   },
   "version": "1.0.0",
   "main": "app.js",
