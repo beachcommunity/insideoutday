@@ -4,8 +4,6 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "dev": "parcel index.html",
-    "build": "npm install",
-    "build": "npm run build",
     "build": "parcel build index.html",
     "deploy": "gh-pages -d dist"
   },
@@ -16,7 +14,10 @@
     "parcel-bundler": "^1.12.5"
   },
   "dependencies": {
-    "dayjs": "^1.11.13"
+    "dayjs": "^1.11.13",
+    "netlify-cli": "^17.34.2",
+    "parcel": "^2.12.0",
+    "parcel-bundler": "^1.12.5"
   },
   "version": "1.0.0",
   "main": "app.js",
