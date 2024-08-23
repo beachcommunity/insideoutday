@@ -5,8 +5,8 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "dev": "parcel index.html",
-    "start": "parcel serve index.html",
-    "build": "parcel build index.html"
+    "start": "npx parcel serve index.html",
+    "build": "npx parcel build index.html"
   },
   "devDependencies": {
     "gh-pages": "^6.1.1",
